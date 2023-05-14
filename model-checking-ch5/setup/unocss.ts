@@ -5,4 +5,5 @@ const range = (prefix: string) => Array.from({ length: 9 }, (_, i) => `${prefix}
 export default defineUnoSetup(() => ({
     safelist:
         range('bg-teal').concat(range('bg-emerald')).concat(range('bg-lime')).concat(range('bg-green'))
+            .concat(range('text-light'))
 }))

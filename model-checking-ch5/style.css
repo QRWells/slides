@@ -1,5 +1,13 @@
 .slidev-layout {
     h1 {
-        @apply text-teal-800;
+        @apply text-emerald-800;
+    }
+}
+
+.dark {
+    .slidev-layout {
+        h1 {
+            @apply text-lime-200;
+        }
     }
 }
