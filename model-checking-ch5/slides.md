@@ -8,7 +8,7 @@ class: 'text-left'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # show line numbers in code blocks
-lineNumbers: true
+lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
   ## Model Checking 2nd Edition
@@ -28,7 +28,7 @@ fonts:
   # use with `font-serif` css class from windicss
   serif: 'Lora'
   # for code blocks, inline code, etc.
-  mono: 'Fira Code'
+  mono: 'JetBrains Mono'
 ---
 
 # Model Checking 2nd Edition
@@ -98,12 +98,14 @@ Represented as a directed graph $(S,R)$ with labeling $L$.
 graph TB
     A((L0)) --> B((L1,L2))
     A --> C((L0))
+    B --> H((...))
     B --> D((L3))
     C --> E((L2))
     D --> F((L1))
     D --> C
     B --> E
     F --> E
+    F --> G((...))
     C --> K((...))
 ```
 
@@ -124,9 +126,3 @@ src: ./pages/5-3.md
 ---
 src: ./pages/problem.md
 ---
-
----
-
-# Summary
-
-- CTL model checking is a generalization of LTL model checking.
