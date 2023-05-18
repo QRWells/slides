@@ -2,7 +2,7 @@
   "name": "model-checking-ch5",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /slides/mc2-chap5/",
     "dev": "slidev --open --port 12345",
     "export": "slidev export"
   },
@@ -10,11 +10,9 @@
     "@slidev/cli": "^0.41.0",
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3",
-    "cytoscape": "^3.25.0",
     "slidev-theme-academic": "^1.1.3"
   },
   "devDependencies": {
-    "@types/cytoscape": "^3.19.9",
     "@types/node": "^20.2.0",
     "sass": "^1.62.1"
   }
