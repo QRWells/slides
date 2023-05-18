@@ -4,7 +4,7 @@
             <button class="btn" @click="prev()">←</button>
             <button class="btn" @click="next()">→</button>
         </div>
-        <img :src="url">
+        <img :src="graph.src">
         <span>{{ graph.title }}</span>
     </div>
 </template>
@@ -29,7 +29,6 @@ const props = defineProps({
 var total = props.src.length
 const current = ref(props.count)
 var graph = computed(() => props.src[current.value])
-var url = computed(() => new URL(graph.value.src, import.meta.url).href)
 
 const prev = () => {
     if (current.value > 0) {
