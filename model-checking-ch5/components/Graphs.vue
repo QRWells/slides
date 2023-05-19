@@ -1,11 +1,13 @@
 <template>
-    <div>
-        <div class="flex flex-row space-x-2">
-            <button class="btn" @click="prev()">←</button>
-            <button class="btn" @click="next()">→</button>
+    <div class="flex flex-row items-center space-x-2">
+        <div class="flex flex-col space-y-4">
+            <button class="btn" @click="prev()">↑</button>
+            <button class="btn" @click="next()">↓</button>
         </div>
-        <img :src="graph.src">
-        <span>{{ graph.title }}</span>
+        <div class="text-center">
+            <img :src="graph.src">
+            <span class="text-xs">{{ graph.title }}</span>
+        </div>
     </div>
 </template>
 
