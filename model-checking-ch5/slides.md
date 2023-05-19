@@ -29,6 +29,8 @@ fonts:
   serif: 'Lora'
   # for code blocks, inline code, etc.
   mono: 'JetBrains Mono'
+
+download: true
 ---
 
 # Model Checking 2nd Edition
