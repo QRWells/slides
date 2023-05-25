@@ -1,0 +1,18 @@
+.slidev-layout {
+    h1 {
+        @apply text-emerald-800;
+    }
+
+    p {
+        @apply my-2;
+        @apply leading-6;
+    }
+}
+
+.dark {
+    .slidev-layout {
+        h1 {
+            @apply text-lime-200;
+        }
+    }
+}
