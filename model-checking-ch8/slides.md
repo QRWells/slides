@@ -16,8 +16,6 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
-# page transition
-transition: fade
 # use UnoCSS
 css: unocss
 hideInToc: true
@@ -53,11 +51,7 @@ hideInToc: true
 ---
 # Table of Contents
 
-<Toc maxDepth = "2" columns = "2" mode = "all"/>
-
----
-src: ./pages/intro.md
----
+<Toc maxDepth = "1" mode = "all"/>
 
 ---
 src: ./pages/8-4.md

@@ -1,12 +1,12 @@
 <template>
-    <div class="flex flex-row items-center space-x-2">
-        <div class="flex flex-col space-y-4">
-            <button class="btn" @click="prev()">↑</button>
-            <button class="btn" @click="next()">↓</button>
-        </div>
+    <div class="flex flex-col items-center space-x-2">
         <div class="text-center">
             <img :src="graph.src">
             <span class="text-xs">{{ graph.title }}</span>
+        </div>
+        <div class="flex flex-row space-x-8">
+            <button class="btn" @click="prev()" :disabled="current == 0">Prev</button>
+            <button class="btn" @click="next()" :disabled="current == total - 1">Next</button>
         </div>
     </div>
 </template>
@@ -54,5 +54,9 @@ const next = () => {
 <style scoped>
 button.btn {
     @apply text-teal-600;
+
+    &:disabled {
+        @apply text-gray-400;
+    }
 }
 </style>
