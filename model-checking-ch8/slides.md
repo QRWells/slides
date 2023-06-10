@@ -51,7 +51,7 @@ hideInToc: true
 ---
 # Table of Contents
 
-<Toc maxDepth = "1" mode = "all"/>
+<Toc maxDepth = "3" mode = "all"/>
 
 ---
 src: ./pages/8-4.md
