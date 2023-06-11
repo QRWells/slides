@@ -2,7 +2,7 @@
   "name": "model-checking-ch8",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /mc2-chap8/ --out ../mc2-chap8/",
     "dev": "slidev --open --port 12345",
     "export": "slidev export"
   },
