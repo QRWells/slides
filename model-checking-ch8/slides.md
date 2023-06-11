@@ -64,7 +64,3 @@ src: ./pages/8-5.md
 ---
 src: ./pages/8-6.md
 ---
-
----
-src: ./pages/problem.md
----
