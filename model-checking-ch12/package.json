@@ -9,11 +9,12 @@
   "dependencies": {
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "katex": "^0.16.8"
   },
   "devDependencies": {
-    "@types/node": "^20.2.5",
-    "playwright-chromium": "^1.35.0",
-    "sass": "^1.63.2"
+    "@types/node": "^20.3.3",
+    "playwright-chromium": "^1.35.1",
+    "sass": "^1.63.6"
   }
 }

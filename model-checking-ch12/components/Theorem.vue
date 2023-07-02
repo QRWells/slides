@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="flex flex-col font-serif my-2 rounded-md overflow-hidden">
+    <div class="flex flex-col font-serif my-2 overflow-hidden">
         <div class="bg-teal-600 dark:bg-stone-700">
             <span class="mx-2 text-xl font-bold">
                 Theorem {{ props.title }}

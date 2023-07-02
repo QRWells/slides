@@ -3,9 +3,24 @@
         @apply text-emerald-800;
     }
 
+    h3 {
+        @apply text-emerald-700;
+        @apply my-2;
+        @apply font-semibold;
+    }
+
+    h4 {
+        @apply text-emerald-700;
+    }
+
     p {
         @apply my-2;
         @apply leading-6;
+    }
+
+    :not(pre) > code:before, :not(pre) > code:after {
+        opacity: 0;
+        content: none;
     }
 }
 

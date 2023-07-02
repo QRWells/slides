@@ -22,9 +22,9 @@ hideInToc: true
 layout: cover
 fonts:
   # basically the text
-  sans: 'Poppins'
+  sans: 'Fira Sans'
   # use with `font-serif` css class from windicss
-  serif: 'Lora'
+  serif: 'Domine'
   # for code blocks, inline code, etc.
   mono: 'JetBrains Mono'
 
