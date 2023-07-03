@@ -2,7 +2,7 @@
   "name": "model-checking-ch12",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /slides/mc2-chap12/ --out ../mc2-chap12/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
