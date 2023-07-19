@@ -1,0 +1,18 @@
+.slidev-layout {
+    h1 {
+        @apply text-emerald-800;
+    }
+
+    :not(pre) > code:before, :not(pre) > code:after {
+        opacity: 0;
+        content: none;
+    }
+}
+
+.dark {
+    .slidev-layout {
+        h1 {
+            @apply text-lime-200;
+        }
+    }
+}

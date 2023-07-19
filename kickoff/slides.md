@@ -25,7 +25,7 @@ fonts:
   # use with `font-serif` css class from windicss
   serif: 'Sawarabi Mincho'
   # for code blocks, inline code, etc.
-  mono: 'Fira Code'
+  mono: 'Ubuntu Code'
 
 download: true
 ---
@@ -41,16 +41,16 @@ hideInToc: true
 <Toc/>
 
 ---
-
-# 現在までに取り組んだこと
-
+src: ./pages/so-far.md
 ---
 
-# 今後の予定
-
+---
+src: ./pages/future.md
 ---
 
-# 参考文献
+---
+src: ./pages/ref.md
+---
 
 ---
 layout: end
