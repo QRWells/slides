@@ -30,7 +30,11 @@ fonts:
 download: true
 ---
 
-# Kick-off
+# グラフ描画の高速化
+## 卒論キックオフ
+### Wang Qirui 1W202047
+#### Ueda Lab 
+##### Waseda University
 
 ---
 hideInToc: true
@@ -38,14 +42,18 @@ hideInToc: true
 
 # Table of Contents
 
-<Toc/>
+<Toc maxDepth = "2" columns = "2" mode = "all"/>
 
 ---
-src: ./pages/so-far.md
+src: ./pages/graph.md
 ---
 
 ---
-src: ./pages/future.md
+src: ./pages/mc.md
+---
+
+---
+src: ./pages/impl.md
 ---
 
 ---
