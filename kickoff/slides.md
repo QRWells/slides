@@ -40,7 +40,7 @@ download: true
 hideInToc: true
 ---
 
-# Table of Contents
+# 目次
 
 <Toc maxDepth = "2" columns = "2" mode = "all"/>
 
