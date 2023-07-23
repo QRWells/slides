@@ -7,6 +7,13 @@
         opacity: 0;
         content: none;
     }
+
+    .ref p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        line-height: 1rem;
+        font-size: 0.5rem;
+    }
 }
 
 .dark {

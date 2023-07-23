@@ -4,14 +4,17 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --with-toc"
   },
   "dependencies": {
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "plotly.js-dist-min": "^2.24.3"
   },
   "devDependencies": {
+    "@types/node": "^20.4.4",
+    "@types/plotly.js": "^2.12.24",
     "playwright-chromium": "^1.36.1"
   }
 }

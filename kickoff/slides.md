@@ -42,14 +42,10 @@ hideInToc: true
 
 # 目次
 
-<Toc maxDepth = "2" columns = "2" mode = "all"/>
+<Toc maxDepth = "1" columns = "1" mode = "all"/>
 
 ---
-src: ./pages/graph.md
----
-
----
-src: ./pages/mc.md
+src: ./pages/research.md
 ---
 
 ---
